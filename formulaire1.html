@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<title>les fromulaires</title>
+<meta charset='utf-8'>
+
+</head>
+<body>
+<h1>les formulaires</h1>
+<form method="post" action="traitement.php">
+<fieldset id="section1">
+<legend>mesinformations personnelles:</legend>
+<label for="prenom">Entrz votre prenom</label>
+<input type="text" id="prenom" name="prenom"  required><br>
+
+<label for="pass">entrer un mot de pass</label>
+<input type="password" id="pass" name="pass"><br>
+<label for="naissance">votre date de naissance</label>
+<input type="date" id="naissance" name="naissance"><br>
+<label for="tel">votre numero de telephone </label>
+<input type="number" id="tel" name="tel"><br>
+<label for="mail">votre email</label>
+<input type="email" id="mail" name="mail" required ><br>
+<label for="site">votre site</label>
+<input type="url" id="site" name="site" required ><br>
+<label for="pres">une petite presentation?</label>
+<textarea id="pres" name="presentation" required ></textarea>
+<input type="submit" value="Envoyer"><br>
+homme ou femme?<br>
+<label for="Femme">une femme</label>
+<input type="radio" id="Femme" name="sexe" value="Femme"><br>
+<label for="Homme">un Homme</label><br>
+<input type="radio" id="Homme" name="sexe" value="Homme"><br>
+Etes vous Majeur ou Mineur ?<br>
+<label for="Majeur">Majeur</label>
+<input type="radio" id="Majeur" name="age" value="Majeur"><br>
+<label for="Mineur">Mineur</label>
+<input type="radio" id="Mineur" name="age" value="Mineur"><br>
+</fieldset>
+<fieldset id="section2">
+<legend>les informations supplimentaires:</legend>
+quel(s) sport(s) pratiquez vous? <br>
+<label for="natation">natation</label>
+<input type="checkbox"  name="sport" value="natation" id="natation" ><br>
+<label for="football">football</label>
+<input type="checkbox"  name="sport" value="football" id="football"><br>
+<label for="velo">velo</label>
+<input type="checkbox"  name="sport" value="velo" id="velo"><br>
+ou habitez vous? <br>
+<select name="pays">
+<option value="Tunisie">Tunisie </option>
+<option value="Maroc">Maroc</option>
+<option value="Italie">Italie</option>
+<option value="France">France</option>
+<option value="Algerie">Algerie</option>
+<option value="Egypte">Egypte</option>
+<option value="Almagne ">Almagne</option>
+<br>
+</fieldset>
+</form>
+</body>
+</html>

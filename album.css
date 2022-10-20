@@ -1,0 +1,11 @@
+*{display: block: padding-left: 10px;}
+ album{
+ width: 500px; 
+ background-color: teal; 
+ font-family: arial; 
+ color: white; font-size:12px; } 
+ titre,auteur{ 
+ display: inline; font-size: 72px; font-weight: bold;} 
+ auteur{color: red ;}
+ auteur:before{content:"(";} 
+ auteur:after{content:")"}

@@ -1,0 +1,41 @@
+
+div{
+width:200px;
+height:200px;
+background-color:blue;
+position:relative;
+-webkit-animation-name: chgt-couleur;
+-webkit-animation-duration:6s;
+-webkit-animation-timing-function:ease;
+-webkit-animation-delay:4s;
+-webkit-animation-direction:alternate;
+-webkit-animation-iteration-count:infinite;
+
+-moz-animation-name: chgt-couleur;
+-moz-animation-duration:6s;
+-moz-animation-timing-function:ease;
+-moz-animation-delay:4s;
+-moz-animation-direction:alternate;
+-moz-animation-iteration-count:infinite;
+
+-o-animation-name: chgt-couleur;
+-o-animation-duration:6s;
+-o-animation-timing-function:ease;
+-o-animation-delay:4s;
+-o-animation-direction:alternate;
+-o-animation-iteration-count:infinite;
+
+animation-name: chgt-couleur;
+animation-duration:6s;
+animation-timing-function:ease;
+animation-delay:4s;
+animation-direction:alternate;
+animation-iteration-count:infinite;
+}
+@-webkit-keyframes chgt-couleur{
+0%{background-color:green; top:0px; left:0px;}
+25%{background-color: yellow; top:0px; left:200px;}
+50%{background-color:red; top:opx; left:200px;}
+75%{background-color:blue; top:200px;left:0px;}
+100%{background-color:pink; top:0px; left:0px;}	
+	
